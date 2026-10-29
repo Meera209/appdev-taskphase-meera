@@ -1,0 +1,86 @@
+/* Basic page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf6f0;
+    color: #40352f;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #eadbd2;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #765d55;
+}
+
+/* Sections */
+section {
+    padding: 40px 10%;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.project-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    box-shadow: 0 4px 12px rgba(64, 53, 47, 0.08);
+}
+
+.image-placeholder {
+    height: 150px;
+    background-color: #f0e4dc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #765d55;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #eadbd2;
+}
+
+footer a {
+    color: #765044;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
